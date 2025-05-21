@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CI/CD Demo App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CI/CD Demo Application</h1>
+            <p class="subtitle">A demonstration of continuous integration and deployment</p>
+        </header>
+
+        <main>
+            <section class="card">
+                <h2>API Status</h2>
+                <div id="health-status">Checking...</div>
+            </section>
+
+            <section class="card">
+                <h2>Message from Server</h2>
+                <div id="message">Loading...</div>
+            </section>
+
+            <section class="card">
+                <h2>Echo Test</h2>
+                <form id="echo-form">
+                    <input type="text" id="echo-input" placeholder="Type something...">
+                    <button type="submit">Send</button>
+                </form>
+                <div id="echo-response"></div>
+            </section>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 
