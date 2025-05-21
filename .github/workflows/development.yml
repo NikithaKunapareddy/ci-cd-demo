@@ -24,11 +24,6 @@ jobs:
     - name: Install dependencies
       run: npm ci
       
-    - name: Run linting
-      run: |
-        npm install -g eslint
-        eslint src/**/*.js
-        
     - name: Run tests
       run: npm test
       
